@@ -1,0 +1,23 @@
+{
+  "name": "backends",
+  "version": "1.0.0",
+  "description": "A Simple Node Backend for File Upload",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Express",
+    "Multer"
+  ],
+  "author": "Rupesh S",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  }
+}
